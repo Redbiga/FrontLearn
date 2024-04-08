@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陳山羊/百叶窗</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: #7f8c8d;
+            display: flex;
+            justify-content: center;
+        }
+        .a{
+            width: 900px;
+            height: 300px;
+            position: relative;
+            top: 200px;
+            /* <a>https://www.bilibili.com/video/BV18h4y177uq/?spm_id_from=333.337.search-card.all.click&vd_source=add54d0fcd49c96c6c124259f9775bc3 */
+            /* 溢出处理 */
+                overflow: hidden;
+            display: flex;
+            /* 居中排列 */
+            /*<a> https://www.bilibili.com/video/BV1f94y1E7Lt/?spm_id_from=333.337.search-card.all.click&vd_source=add54d0fcd49c96c6c124259f9775bc3 */
+            justify-content: center;
+        }
+        .b{
+            /* <a>https://www.bilibili.com/video/BV1hC4y1y7Yo/?spm_id_from=333.788&vd_source=add54d0fcd49c96c6c124259f9775bc3 */
+            /* CSS动画,动画过渡效果*/
+            transition: .7s;
+            overflow: hidden;
+        }
+        .b:hover{
+            /* 项目缩小 如果设置为 0，则表示该元素不会收缩*/
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+        img{
+            width: 400px;
+        }
+        .c{
+            transform: rotate(30);
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b"><img src="https://fastly.jsdelivr.net/gh/Redbiga/imgs@main/17125650835367.gif"></div>
+        <div class="b"><img src="https://fastly.jsdelivr.net/gh/Redbiga/imgs@main/17125649461521.gif"></div>
+        <div class="b"><img src="https://fastly.jsdelivr.net/gh/Redbiga/imgs@main/17125649791372.gif"></div>
+        <div class="b"><img src="https://fastly.jsdelivr.net/gh/Redbiga/imgs@main/17125650711393.gif"></div>
+        <div class="b"><img src="https://fastly.jsdelivr.net/gh/Redbiga/imgs@main/17125650731404.gif"></div>
+        <div class="b"><img src="https://fastly.jsdelivr.net/gh/Redbiga/imgs@main/17125650791385.gif"></div>
+        <div class="b"><img src="https://fastly.jsdelivr.net/gh/Redbiga/imgs@main/17125650821406.gif"></div>
+    </div>
+</body>
+</html>
